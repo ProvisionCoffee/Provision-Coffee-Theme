@@ -1,0 +1,488 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	min-width: 790px !important;
+}
+
+.clear {
+	width: 100%;
+	height: 10px;
+	clear: both;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+/* Font Stylings */
+h1, h2, h3, p {
+	font-family: 'Lato', Helvetica;
+}
+
+h1 {
+	font-weight: 300;
+	font-size: 5em;
+	color: white;
+	text-transform: uppercase;
+	margin: 0px auto;
+	max-width: 700px;
+	border-bottom: 1px white solid;
+	text-align: center;
+}
+
+h2 {
+	
+}
+
+h3 {
+	font-weight: 300;
+	font-size: 3em;
+	color: white;
+	margin: 0px;
+}
+
+a {
+	color:#2eb280;
+	text-decoration: none;
+}
+
+a:hover {
+	color:#79bfa4;
+	text-decoration: none;
+}
+
+/* Background Styling */
+
+.church {
+	background: url(../img/chruch.png) 50% 0 repeat scroll;
+}
+
+.debut-dark {
+	background: url(../img/debut_dark.png) 50% 0 repeat scroll;
+}
+
+.black-paper {
+	background: url(../img/black_paper.png) 50% 0 repeat scroll;
+}
+
+/* Positionings */
+
+
+article {  
+  position: relative; 
+  top: 20px; 
+  width: 100%; 
+}
+
+#home { 
+	background: url(../img/bg.jpg)50% 0 no-repeat fixed;
+	height: 90%; 
+	margin: 0 auto; 
+	width: 100%; 
+	max-width: 1920px; 
+	position: relative;
+	color: #333333; 
+}
+
+#home img {
+	margin-top: 50px;
+	width: 250px;
+	height: 250px;
+}
+
+article p {
+	font-size: 20px;
+	font-weight: 600;
+	text-align: left;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	}
+	
+.click-items{ 
+	text-align: center;
+}
+ 
+#home article { 
+  height: 465px; 
+  position: absolute; 
+  text-align: center; 
+  top: 15%; 
+  width: 100%; 
+}
+
+#mission{ 
+	 min-height: 330px;
+}
+
+.thumb {
+	display: inline-block;
+	width: 230px;
+	height: 230px;
+	border-radius: 250px;
+	margin: 20px 20px 0px 0px;
+}
+
+.thumb a {
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+
+.thumb a span {
+	display: none;
+}
+
+.thumb:hover {
+	color: #37df8e;
+}
+
+#story {
+	background: url(../img/farmer.jpg) center no-repeat;
+}
+
+#coffee {
+	background: url(../img/product.jpg) center no-repeat;
+}
+
+#subscription {
+	background: url(../img/subscription.jpg) center no-repeat;
+}
+
+.click-items h2 {
+	margin-top: 5px;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 30px;
+} 
+
+#support { 
+	background: url(../img/bg2.jpg)50% 0 no-repeat fixed;
+	height: 80%; 
+	margin: 0 auto; 
+	width: 100%; 
+	max-width: 1920px; 
+	position: relative;
+	color: #333333;
+	text-align: center;
+}
+
+#support h1 {
+	font-size: 60px;
+}
+
+#support span {
+	height: 100px;
+	width: 100px;
+	display: block;
+}
+
+#health {
+	background: url(../img/empowering-sprites.png);
+	background-position-x: 203px;
+	background-position-y: 1px
+}
+
+#education {
+	background: url(../img/empowering-sprites.png);
+	background-position-x: 95px;
+	background-position-y: 3px
+}
+
+#finance {
+	background: url(../img/empowering-sprites.png);
+	background-position-x: 4px;
+	background-position-y: -1px
+}
+
+#health:hover {
+	background-position-y: -100px;
+}
+
+#education:hover {
+	background-position-y: -98px;
+}
+
+#finance:hover {
+	background-position-y: -102px;
+}
+
+#support .thumb {
+	background-color: white;
+	text-align: center;
+	width: 100px;
+	height: 100px;
+}
+
+#last {
+	margin-right: 0px !important;
+}
+
+#merch {
+	min-height: 330px;
+}
+
+#merch h1 {
+	font-size: 60px;
+}
+
+#desc {
+	color: white;
+	max-width: 950px;
+	margin: 0 auto;
+}
+
+/* Page Stylings */
+
+.page .content {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -4em;
+}
+
+.page section{
+	margin: 0 10%;
+	margin-bottom: 80px;
+}
+
+header {
+	top: 0px;
+	position: relative;
+	height: 170px;
+	background: url(../img/debut_dark.png) 50% 0 repeat fixed;
+	padding: 0 10%;
+}
+
+.logo {
+	width: 150px;
+	height: auto;
+	margin: 10px 10px 10px 0px;
+}
+
+.page h1 {
+	display: inline-block;
+	border: none;
+	line-height: 170px;
+	float: right;
+	letter-spacing: 0px;
+	font-size: 50px;	
+}
+
+
+/* Offerings Stylings */
+	
+.offerings {
+	padding: 30px 0px;
+	border-bottom: rgba(190,190,190,1) 1px dotted;
+	margin-bottom: 0px !important;
+	height: 200px;
+}
+
+.offerings img {
+	width: 200px;
+	height: 200px;
+	border-radius: 250px;
+	float: left;
+	margin: 0px 20px 0px 0px;
+}
+
+.offerings h2 {
+	margin: 0px;
+	font-size: 25px;
+}
+
+.offerings .meta {
+	margin: 0px;
+	font-size: 12px;
+	font-style: italic;
+}
+
+.offerings p {
+	margin: 5px;
+}
+
+.offerings a {
+	padding: 5px;
+	background-color: #37df8e;
+	color: white;
+	margin-top: 5px;
+	display: inline-block
+}
+
+.offerings a:hover {
+	background-color: #1dc071;
+	}
+	
+.offerings #sub {
+	padding: 5px;
+	background-color: #e89f44;
+	color: white;
+	margin-top: 5px;
+	display: inline-block
+}
+
+.offerings #sub:hover {
+	background-color: #d18b36;
+	}
+
+
+
+/* Footer Stylings */
+footer {
+	height: 70px;
+	color: white;
+	position: absolute;
+	width: 100%;
+	margin-top: 70px;
+}
+
+.page-home footer {
+	margin-top: 0px;
+}
+
+#social {
+	float: left;
+	display: block;
+}
+
+#social #fb {
+	width: 31px;
+	height: 32px;
+	background: url(../img/social-sprite.png) left center;
+	display: inline-block
+}
+
+#social #twit {
+	width: 31px;
+	height: 32px;
+	background: url(../img/social-sprite.png) 62px center;
+	display: inline-block
+}
+
+#social #ig {
+	width: 31px;
+	height: 32px;
+	background: url(../img/social-sprite.png) right center;
+	display: inline-block
+}
+
+#copy {
+	float: right;
+}
+
+footer div {
+	padding: 21px 20px 10px 20px;
+}
+
+#roast-guide {
+	width: 500px;
+	margin: 0 auto;
+}
+
+#roast-guide li{
+	list-style: none;
+	padding: 5px;
+	font-size: 13px;
+}
+
+#red-label {
+	background-color: #e84444;
+	color: white;
+}
+
+#white-label {
+	background-color: #eeeeee;
+	color: black;
+}
+
+#black-label {
+	background-color: #313131;
+	color: white;
+}
+
+.page h3 {
+	text-align: center;
+	font-size: 25px;
+	font-weight: 300;
+	text-decoration: none;
+	color: black;
+}
+
+ #div1, #div2, #div3 {  
+    visibility: hidden;  
+  }
+
+
+/* Mailchimp signup */
+div#mc_embed_signup {
+	width: 400px;
+	margin: 0 auto;
+	display: block;
+}	
+
+input#mce-EMAIL.email {	
+	width: 250px;
+	border: none;
+	background-color: #dadada;
+	padding: 5px;
+	color: #1d1d1d;
+}
+
+input#mc-embedded-subscribe.button {
+	border: none;
+	padding: 5px;
+	background-color: #37df8e;
+	color: #ffffff;
+}
+
+input#mc-embedded-subscribe.button:hover { 
+	background-color: #1dc071;	
+}
+
+.hiditem {
+	position: absolute;
+	width: 950px;
+	background-color: rgba(0,0,0,0.6);
+	padding: 5px;
+}
+
+
+
+
+/* Media Queries */
+@media only screen 
+and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {
+#home {
+	height: 70%;
+	}
+#support {
+	background-color: #444444;
+	height: 60%;
+}
+
+.hiditem {
+	width: 790px;
+	}
+}
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 1)  {
+	body {
+	max-width: 1000px !important;
+	}
+}
+
+
+
+
+
+
+
+
