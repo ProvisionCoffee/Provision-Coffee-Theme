@@ -1,101 +1,232 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Provision Coffee - Home</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="initial-scale=.4,width=device-width,user-scalable=0" />
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <!--CSS-->
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/cool-styles.css">
-        <!--Scripts-->
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <title>Provision Coffee</title>
 
-    </head>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+  <!-- Navbar -->
+  <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"></a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="../story.html">Our Story</a></li>
+            <li><a href="../coffees.html">Our Coffees</a></li>
+            <li><a href="../subscribe.html">Subscribe</a></li>
+            <li><a href="../blog.html">Blog</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+          </ul>
+        </div><!-- /nav-collapse -->
+      </div><!-- /container -->
+    </div>
+    <!-- /navbar -->
     
-    <body class="page-home">
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->          
-    <section id="home" data-type="background" data-speed="20">     
-         <article>
-         <h1>Make Memories</h1>
-         <h3>Share Provision</h3>
-         <img id="logo" src="img/provision.png" alt="provision">
-         </article>
-    </section>   
-     
-<section id="mission" class="church">
-         <article class="click-items">
-         <div id="story" class="thumb"><a href="story.html"></a><h2>Story</h2></div>
-		 <div id="coffee" class="thumb"><a href="specialty-coffee.html"></a><h2>Specialty Coffee</h2></div>
-		 <div id="subscription" class="thumb"><a href="subscription.html"></a><h2>Subscription</h2></div>​
-         </article>
-</section> 
-<section id="support" data-type="background" data-speed="20">
-         <article>
-         <h1>Empowering Farmers</h1>
-         <div id="circle-elements">
-         <div class="thumb" onMouseOver="show('div1')" onMouseOut="hide('div1')"><span id="health"></span></div>
-		 <div class="thumb" onMouseOver="show('div2')" onMouseOut="hide('div2')"><span id="education"></span></div>
-		 <div class="thumb" onMouseOver="show('div3')" onMouseOut="hide('div3')"><span id="finance"></span></div>​
-         </div>
-		 <div class="clear"></div>
-		 <div id="desc">
-			 <p>Provision Coffee is committed to giving back to the various farmers who support us around the world. It is our belief that their community empowers ours and vise versa. By providing them a sustainable trade agreement and contributing directly to their education, health, and economic needs, they are in turn providing us with specialty coffees that are used to build community amongst our friends and family.</p>
-			 <div style="font-size: 20px; font-weight: 800;">
-  <div class="hiditem" id="div1">We help provide preventative care and emergency aid while promoting long term health by improving water quality and nutrition.</div>
-  <div class="hiditem" id="div2">We work to provide education options for students and improving school facilities, equipment, and supplies.</div>
-  <div class="hiditem" id="div3">We assist in improving coffee quality and increasing crop yields by investing in equipment and infrastructure and providing tools and micro-financing.</div>
-			 </div>
- 		 </div>
-  	     </article>
-</section>
+    <!-- Full Page Image Header Area -->
+    <div id="top" class="header">
+      <div class="vert-text">
+        <h1>Make Memories</h1>
+        <h3>Share Provision</h3>
+        <a href="#about" id="vert-btn" class="btn btn-default btn-lg">Browse Coffees</a>
+      </div>
+    </div>
+    <!-- /Full Page Image Header Area -->
 
-<section id="merch" class="debut-dark">
-	<article>
-    <h1>Hard Goods</h1>
-	</article>
-</section>
-</content>
-<footer class="black-paper">
-	<div>
-	<span id="social">
-	<a href="http://www.facebook.com/ProvisionCoffee" target="_blank"><span id="fb"></span></a>
-	<a href="http://twitter.com/ProvisionCoffee" target="_blank"><span id="twit"></span></a>
-	<a href="http://instagram.com/provisioncoffee" target="_blank"><span id="ig"></span></a>
-	</span>
-	<span id="copy">Copyright Provision Coffee 2013</span>
-	</div>
-</footer>
-	<script>
-  function show(id) {
-    document.getElementById(id).style.visibility = "visible";
-  }
-  function hide(id) {
-    document.getElementById(id).style.visibility = "hidden";
-  }
-  </script>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:100,200,400,800,700,600,300' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Lato:100,200,400,800,700,600,300' rel='stylesheet' type='text/css'>
+    <!-- Jumps -->
+    <div id="Jumps" class="Jumps">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-md-offset-4 text-center">
+            <h2>Join Our Movement</h2>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 col-md-offset-2 text-center">
+            <div class="Jump-item">
+              <i class="Jump-icon fa fa-pagelines"></i>
+              <h4>Our Story</h4>
+              <p>Provision Coffee wants you to make memories around the table with people you care about while truly making a difference in the lives of farmers.</p>
+            </div>
+          </div>
+          <div class="col-md-2 text-center">
+            <div class="Jump-item">
+              <i class="Jump-icon fa fa-coffee"></i>
+              <h4>Specialty Coffees</h4>
+              <p>Browse our diverse selection of specialty coffees, and learn about the farmers who produce them.</p>
+            </div>
+          </div>
+          <div class="col-md-2 text-center">
+            <div class="Jump-item">
+              <i class="Jump-icon fa fa-gift"></i>
+              <h4>Subscriptions</h4>
+              <p>Become a subscriber of Provision Coffee, and receive freshly-roasted coffee direct to your door.</p>
+            </div>
+          </div>
+          <div class="col-md-2 text-center">
+            <div class="Jump-item">
+              <i class="Jump-icon fa fa-heart"></i>
+              <h4>Hard Goods</h4>
+              <p>Share the word of Provision with one of our many merchandise items.</p>
+            </div>
+          </div>       
+        </div>
+      </div>
+    </div>
+    <!-- /Jumps -->
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src='//www.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
-       </body>
+    <!-- Empowering -->
+    <div class="empowering">
+      <div class="vert-text">
+        <h1>Empowering Farmers</h1>
+      </div>
+    </div>
+    <!-- /Empowering -->
+    
+    <!-- Intro -->
+    <div id="about" class="intro">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+            <h2>We work directly with coffee farmers in developing countries to ensure them economic stability</h2>
+            <p class="lead">Find out more about the farms we've worked with and our future goals <a href="#">here</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Intro -->
+
+    <!-- Coffees -->
+    <div id="coffees" class="coffees">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-md-offset-4 text-center">
+            <h2>Our Coffees</h2>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-md-offset-2 text-center">
+            <div class="coffees-item">
+              <a href="#"><img class="img-coffees img-responsive" src="img/label-red.jpg"></a>
+              <h4>Red Label</h4>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="coffees-item">
+              <a href="#"><img class="img-coffees img-responsive" src="img/label-black.jpg"></a>
+              <h4>Black Label</h4>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-md-offset-2 text-center">
+            <div class="coffees-item">
+              <a href="#"><img class="img-coffees img-responsive" src="img/label-white.jpg"></a>
+              <h4>White Label</h4>
+            </div>
+          </div>
+          <!-- <div class="col-md-4 text-center">
+            <div class="coffees-item">
+              <a href="#"><img class="img-coffees img-responsive" src=""></a>
+              <h4>Last Item</h4>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <!-- /coffees -->
+
+    <!-- Call to Action -->
+    <div class="call-to-action">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+            <h3>What are you waiting for, subscribe today!</h3>
+            <a href="#" class="btn btn-lg btn-default">Subscribe Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Call to Action -->
+    
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+            <ul class="list-inline">
+              <li><i class="fa fa-facebook fa-3x"></i></li>
+              <li><i class="fa fa-twitter fa-3x"></i></li>
+            </ul>
+            <div class="top-scroll">
+              <a href="#top"><i class="fa fa-circle-arrow-up scroll fa-4x"></i></a>
+            </div>
+            <hr>
+            <p>Copyright &copy; Provision Coffee 2013</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /Footer -->
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->
+    <script>
+        $("#menu-close").click(function(e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
+        });
+    </script>
+    <script>
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
+        });
+    </script>
+    <script>
+      $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+            || location.hostname == this.hostname) {
+
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html,body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+    </script>
+
+  </body>
+
 </html>
