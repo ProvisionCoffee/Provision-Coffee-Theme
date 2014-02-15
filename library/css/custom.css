@@ -1,0 +1,248 @@
+/* Global Styles */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.dark {
+	background: url(../img/black_paper.png) repeat;
+	color: #ffffff;
+}
+
+.vert-text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: #ffffff !important;
+}
+
+.vert-text h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 5em;
+  font-weight: 200;
+  letter-spacing: 5px;
+  text-shadow: 1px 1px 1px black;
+}
+
+.vert-text h3 {
+	font-size: 3em;
+	font-weight: 100;
+	margin-top: -5px !important;
+	letter-spacing: 5px;
+	text-shadow: 1px 1px 1px black;
+	}
+	
+#vert-btn {
+	margin-top: 20px;
+	background: none;
+	color: white;
+}
+
+#vert-btn:hover {
+	background: white;
+	color: #333333;
+}
+
+h4 {
+	font-size: 22px;
+}
+
+#logo {
+	width: 200px;
+	height: 200px;
+	display: block;
+	margin: 5px auto;
+	background: url(../img/provision-logo.png);
+	background-size: contain;
+}
+
+/* Navbar */
+.navbar-brand {
+	background: url(../img/provision-logo-nav.png) center;
+	margin:5px 20px;
+	padding: 25px 25px;
+}
+
+.navbar-nav > li > a {
+	line-height: 30px;
+}
+
+.navbar-nav {
+	float: right !important;
+}
+
+/* Full Page Image Header Area */
+
+.header {
+  display: table;
+  height: 90%;
+  width: 100%;
+  position: relative;
+  background: url(../img/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Intro */
+
+.intro {
+  padding: 30px 0px;
+  background-color: #dfd7ac;
+  color: #000000;
+}
+
+/* jumps */
+
+.jumps {
+  padding: 30px 0;
+}
+
+.jumps a, a:link, a:active {
+	color: white;
+}
+
+.jumps a:hover {
+	color: #e7e7e7;
+	text-decoration: none;
+}
+
+.Jump-item {
+  margin-bottom: 15px;
+}
+
+i.Jump-icon {
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 56px;
+  width: 140px;
+  height: 140px;
+  line-height: 136px;
+  vertical-align: middle; 
+  text-align: center;
+}
+
+/* Empowering */
+
+.empowering {
+  color: #ffffff;
+  display: table;
+  height: 400px;
+  width: 100%;
+  background: url(../img/empowering-farmers.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* coffees */
+
+.coffees {
+  padding: 50px 0;
+  background: url(../img/coffee-bar.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.coffees-item {
+  margin-bottom: 25px;
+}
+
+.img-coffees {
+  margin: 0 auto;
+}
+
+/* Call to Action */
+
+.cta {
+  color: #ffffff;
+  background: url(../img/black_paper.png) repeat;
+  padding: 50px 0;
+}
+
+.cta h3 {
+	font-size: 22px;
+}
+
+.cta .btn {
+  margin: 10px;
+}
+
+/* Pages */
+.page-header {
+	margin: 60px 0 20px;
+}
+
+/* Subscription */
+
+
+#subscribe {
+	background-color: #52d36a;
+	color: white;
+	border: none;
+	margin-top: 40px;
+}
+
+#friend-selected .input-group{
+	margin-top: 10px;
+}
+
+/* Map */
+
+.map {
+  height: 500px;
+}
+
+/* Footer */
+
+footer {
+  padding: 100px 0;
+}
+
+.top-scroll {
+  margin-top: 50px;
+}
+
+.top-scroll a {
+  text-decoration: none;
+  color: inherit;
+}
+
+i.scroll {
+  color: #333333;
+}
+
+i.scroll:hover {
+  color: #0a5175;
+}
+/* Responsive */
+
+@media (max-width: 768px) {
+	
+  .header {
+	background: url(../img/bg.jpg) no-repeat center center scroll; 
+  }
+
+  .callout {
+	background: url(../img/callout.jpg) no-repeat center center scroll; 
+  }
+
+  .map {
+	height: 75%;
+  }
+  
+  #logo {
+	  height: 150px;
+	  width: 150px;
+  }
+
+}
