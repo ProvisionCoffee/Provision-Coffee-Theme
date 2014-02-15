@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 /*
 Author: Eddie Machado
 URL: htp://themble.com/bones/
@@ -485,3 +486,8 @@ if( !function_exists( "theme_js" ) ) {
 add_action( 'wp_enqueue_scripts', 'theme_js' );
 
 ?>
+=======
+
+    register_nav_menu( 'primary', 'Primary Menu' );
+    
+>>>>>>> bf57d3846f304426099c232fc5108b29f523dfce

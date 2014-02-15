@@ -1,4 +1,5 @@
 /*
+<<<<<<< HEAD
 Theme Name: wp-bootstrap
 Theme URI: http://320press.com/wpbs
 Description: A simple responsive theme based on the Bootstrap framework. Includes multiple page templates, two different sidebars and a theme options panel.
@@ -11,3 +12,19 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/lice
 */
 
 /* HEADS UP: Everything that you will normally find here can be found in the library/less/wp.less */
+=======
+Theme Name: Provision Coffee Theme
+Theme URI: http://provisioncoffee.com/
+Author: the WordPress team
+Author URI: http://provisioncoffee.com/
+Description: A custom theme developed for Provision Coffee by AllStruck and Kyle Cesmat.
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: coffee, ecommerce
+Text Domain: provisioncoffeetheme
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+>>>>>>> bf57d3846f304426099c232fc5108b29f523dfce

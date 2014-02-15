@@ -1,5 +1,7 @@
 /* Global Styles */
 
+body.logged-in .navbar-fixed-top{ top: 28px !important; }
+
 html,
 body {
   height: 100%;
@@ -61,7 +63,7 @@ h4 {
 
 /* Navbar */
 .navbar-brand {
-	background: url(../img/provision-logo-nav.png) center;
+	background: url('../img/provision-logo-nav.png') center;
 	margin:5px 20px;
 	padding: 25px 25px;
 }
@@ -81,7 +83,7 @@ h4 {
   height: 90%;
   width: 100%;
   position: relative;
-  background: url(../img/bg.jpg) no-repeat center center fixed; 
+  background: url('../img/bg.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -98,7 +100,12 @@ h4 {
 
 /* jumps */
 
+<<<<<<< HEAD:library/css/custom.css
 .jumps {
+=======
+.Jumps {
+  background: url('../img/black_paper.png') repeat;
+>>>>>>> bf57d3846f304426099c232fc5108b29f523dfce:css/custom.css
   padding: 30px 0;
 }
 
@@ -134,7 +141,7 @@ i.Jump-icon {
   display: table;
   height: 400px;
   width: 100%;
-  background: url(../img/empowering-farmers.jpg) no-repeat center center fixed; 
+  background: url('../img/empowering-farmers.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -145,7 +152,7 @@ i.Jump-icon {
 
 .coffees {
   padding: 50px 0;
-  background: url(../img/coffee-bar.jpg) no-repeat center center fixed; 
+  background: url('../img/coffee-bar.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -165,7 +172,7 @@ i.Jump-icon {
 
 .cta {
   color: #ffffff;
-  background: url(../img/black_paper.png) repeat;
+  background: url('../img/black_paper.png') repeat;
   padding: 50px 0;
 }
 
@@ -229,11 +236,11 @@ i.scroll:hover {
 @media (max-width: 768px) {
 	
   .header {
-	background: url(../img/bg.jpg) no-repeat center center scroll; 
+	background: url('../img/bg.jpg') no-repeat center center scroll; 
   }
 
   .callout {
-	background: url(../img/callout.jpg) no-repeat center center scroll; 
+	background: url('../img/callout.jpg') no-repeat center center scroll; 
   }
 
   .map {
@@ -246,3 +253,4 @@ i.scroll:hover {
   }
 
 }
+
