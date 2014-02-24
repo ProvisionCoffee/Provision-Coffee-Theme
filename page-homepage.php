@@ -16,8 +16,8 @@ get_header();
       <div class="vert-text">
         <h1>Make Memories</h1>
         <h3>Share Provision</h3>
-        <a href="#" id="logo"></a>
-        <a href="#about" id="vert-btn" class="btn btn-default btn-lg">Start Enjoying Coffee</a>
+        <a href="#" class="logo"></a>
+        <a href="#about" id="vert-btn" class="btn yellowbtn btn-default btn-lg">Start Enjoying Coffee</a>
       </div>
     </div>
     <!-- /Full Page Image Header Area -->
@@ -57,17 +57,9 @@ get_header();
       </div>
     </div>
     <!-- /jumps -->
-
-    <!-- Empowering 
-    <div class="empowering">
-      <div class="vert-text">
-        
-      </div>
-    </div>
-     /Empowering -->
     
     <!-- Intro -->
-    <div id="about" class="intro">
+    <div id="about" class="empowering">
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-md-offset-3 text-center">
@@ -80,8 +72,8 @@ get_header();
     </div>
     <!-- /Intro -->
 
-    <!-- Coffees 
-    <div id="coffees" class="coffees">
+    <!-- Coffees -->
+    <div id="coffees" class="coffees dark">
       <div class="container">
         <div class="row">
           <div class="col-md-4 col-md-offset-4 text-center">
@@ -90,42 +82,52 @@ get_header();
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4 col-md-offset-2 text-center">
-            <div class="coffees-item">
-              <a href="#"><img class="img-coffees img-responsive" src="img/label-red.jpg"></a>
-              <h4>Red Label</h4>
-            </div>
-          </div>
-          <div class="col-md-4 text-center">
-            <div class="coffees-item">
-              <a href="#"><img class="img-coffees img-responsive" src="img/label-black.jpg"></a>
-              <h4>Black Label</h4>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 col-md-offset-2 text-center">
-            <div class="coffees-item">
-              <a href="#"><img class="img-coffees img-responsive" src="img/label-white.jpg"></a>
-              <h4>White Label</h4>
-            </div>
-          </div>
-        </div>
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail" id="white-label">
+      <img src="../wp-content/themes/provision/library/img/white-label.jpg" alt="White Label">
+      <div class="caption">
+        <h3>White Label</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p><a href="#" class="btn btn-primary" role="button">Buy</a> <a href="#" class="btn yellowbtn btn-default" role="button">Subscribe</a></p>
       </div>
     </div>
-     /coffees -->
+  </div>
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail" id="red-label">
+      <img src="../wp-content/themes/provision/library/img/red-label.jpg" alt="Red Label">
+      <div class="caption">
+        <h3>White Label</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p><a href="#" class="btn btn-primary" role="button">Buy</a> <a href="#" class="btn yellowbtn btn-default" role="button">Subscribe</a></p>
+      </div>
+    </div>
+    </div>
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail" id="black-label">
+      <img src="../wp-content/themes/provision/library/img/black-label.jpg" alt="Black Label">
+      <div class="caption">
+        <h3>Black Label</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p><a href="#" class="btn btn-primary" role="button">Buy</a> <a href="#" class="btn yellowbtn btn-default" role="button">Subscribe</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+    <!-- /coffees -->
 
-    <!-- Call to Action 
+    <!-- Call to Action -->
     <div class="cta">
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-md-offset-3 text-center">
             <h3>What are you waiting for, subscribe today!</h3>
-            <a href="#" class="btn btn-lg btn-default">Subscribe Now</a>
+            <a href="#" class="btn yellowbtn btn-lg btn-default">Subscribe</a>
           </div>
         </div>
       </div>
     </div>
-    /Call to Action -->
+    <!-- /Call to Action -->
 
 <?php get_footer(); ?>

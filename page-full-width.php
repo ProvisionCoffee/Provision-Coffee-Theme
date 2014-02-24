@@ -5,20 +5,39 @@ Template Name: Full Width Page
 ?>
 
 <?php get_header(); ?>
+			<script>
+				jQuery(document).ready(function() {
+    jQuery(window).scroll(function(e) {
+        var s = jQuery(window).scrollTop(),
+            d = jQuery(document).height(),
+            c = jQuery(window).height(),
+            opacityVal = (s / 150);
+
+        jQuery('.blurred-image').css('opacity', opacityVal);
+    });
+});
+			</script>
+			<!-- Page Banner -->
+			<div id="blurred-image-container" class="page-head">
+			<h1><?php the_title(); ?></h1>
+			<h3>This is a page description/tagline</h3>
+    <div class="img-src" style="background-image:url('http://www.me.kylecesmat.com/wp-content/themes/provision/library/img/farmers-orig.jpg')"></div>
+    <div class="img-src blurred-image" style="background-image:url('http://www.me.kylecesmat.com/wp-content/themes/provision/library/img/farmers-orig-blur.jpg');opacity:0"></div>
+</div>
 			
-			<div id="content" class="clearfix row">
+<!-- <div id="top"  style="background: url(http://www.me.kylecesmat.com/wp-content/themes/provision/library/img/farmers-orig.jpg) no-repeat center center fixed; ">
+    	<div class="page-desc">
+    	<h1><?php the_title(); ?></h1>
+    	<h3>This is a page description/tagline</h3>
+    	</div>
+    </div> -->
+			<div id="content" class="container foreground">
 			
 				<div id="main" class="col col-lg-12 clearfix" role="main">
 
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					
 					<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article">
-						
-						<header>
-							
-							<div class="page-header"><h1><?php the_title(); ?></h1></div>
-						
-						</header> <!-- end article header -->
 					
 						<section class="post_content">
 							<?php the_content(); ?>
@@ -32,8 +51,6 @@ Template Name: Full Width Page
 						</footer> <!-- end article footer -->
 					
 					</article> <!-- end article -->
-					
-					<?php comments_template(); ?>
 					
 					<?php endwhile; ?>	
 					

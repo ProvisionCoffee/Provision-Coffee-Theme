@@ -1,5 +1,4 @@
 <?php
-<<<<<<< HEAD
 /*
 Author: Eddie Machado
 URL: htp://themble.com/bones/
@@ -21,7 +20,7 @@ require_once('library/shortcodes.php');
 // Custom Backend Footer
 add_filter('admin_footer_text', 'wp_bootstrap_custom_admin_footer');
 function wp_bootstrap_custom_admin_footer() {
-	echo '<span id="footer-thankyou">Developed by <a href="http://320press.com" target="_blank">320press</a></span>. Built using <a href="http://themble.com/bones" target="_blank">Bones</a>.';
+	echo '<span id="footer-thankyou">Provision Coffee Theme designed and developed by Kyle Cesmat and David Monoghan.';
 }
 
 // adding it to the admin area
@@ -36,6 +35,12 @@ if ( ! isset( $content_width ) ) $content_width = 580;
 add_image_size( 'wpbs-featured', 780, 300, true );
 add_image_size( 'wpbs-featured-home', 970, 311, true);
 add_image_size( 'wpbs-featured-carousel', 970, 400, true);
+
+add_action('after_setup_theme','themename_blur_size');
+function themename_blur_size() {
+    add_image_size('themename-blur-image', 1600, 1000, true);
+}
+
 
 /* 
 to add more sizes, simply copy a line from above 
@@ -56,6 +61,7 @@ for the 600 x 100 image:
 You can change the names and dimensions to whatever
 you like. Enjoy!
 */
+
 
 /************* ACTIVE SIDEBARS ********************/
 
@@ -476,18 +482,26 @@ if( !function_exists( "theme_js" ) ) {
       get_template_directory_uri() . '/library/js/modernizr.full.min.js', 
       array('jquery'), 
       '1.2' );
+      
+     wp_register_script(  'bootstrap-select', 
+      get_template_directory_uri() . '/library/js/bootstrap-select.js', 
+      array('jquery'), 
+      '1.2' );
+      
+     wp_register_script(  'cssua.min"', 
+      get_template_directory_uri() . '/library/js/cssua.min.js', 
+      array('jquery'), 
+      '1.2' );
   
     wp_enqueue_script('bootstrap');
     wp_enqueue_script('wpbs-scripts');
     wp_enqueue_script('modernizr');
+    wp_enqueue_script('bootstrap-select');
+    wp_enqueue_script('cssua.min');
     
   }
 }
 add_action( 'wp_enqueue_scripts', 'theme_js' );
 
-?>
-=======
 
-    register_nav_menu( 'primary', 'Primary Menu' );
-    
->>>>>>> bf57d3846f304426099c232fc5108b29f523dfce
+?>
